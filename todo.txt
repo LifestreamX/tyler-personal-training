@@ -1,0 +1,52 @@
+TODO: Next Steps for Tyler Personal Training Website
+
+✅ 1. Update all content in /lib/constants.ts:
+   - Site name, tagline, description
+   - Contact info (email, phone, location)
+   - Services, testimonials, certifications
+   [COMPLETED - Updated with your real info. Testimonials section has 1 placeholder - add more as you get real client feedback]
+
+
+
+2. Add your real Calendly link to .env.local:
+   - NEXT_PUBLIC_CALENDLY_URL="https://calendly.com/your-link"
+   [COMPLETED - Added link and integrated react-calendly widget on booking page]
+
+
+
+3. Set your real contact email in .env.local:
+   - CONTACT_EMAIL="your@email.com"
+
+4. Configure email service for contact form:
+   - Choose SendGrid, Resend, or SMTP (see SETUP.md)
+   - Add API keys to .env.local
+   - Update /app/api/contact/route.ts if needed
+
+5. (Optional) Add Stripe keys for payments in .env.local
+
+6. (Optional) Set up CMS integration (Sanity/Contentful)
+
+7. (Optional) Add analytics tracking IDs to .env.local
+
+8. Test all forms and links:
+   - Assessment form (all steps)
+   - Contact form (success/error)
+   - Booking (Calendly)
+   - Navigation and CTAs
+
+9. Check mobile responsiveness and design on real devices
+
+10. Replace any placeholder images or icons if needed
+
+11. Review and update SEO metadata per page if desired
+
+12. Deploy to Vercel or your preferred host
+
+13. Set up custom domain and SSL
+
+14. Add privacy policy and terms if collecting data
+
+15. Monitor form submissions and analytics after launch
+
+
+- Live chat?
