@@ -7,6 +7,7 @@ import { Section } from '@/components/ui/Section';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { SITE_CONFIG } from '@/lib/constants';
+import { trackGAEvent, GA_EVENT_NAMES } from '@/lib/analytics';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -40,6 +41,11 @@ export default function ContactPage() {
             'Failed to send message',
         );
       }
+
+      // Track successful contact form submission
+      trackGAEvent(GA_EVENT_NAMES.FORM_SUBMIT_CONTACT, {
+        method: 'contact_page',
+      });
 
       setStatus('success');
       setFormData({ name: '', email: '', phone: '', message: '' });

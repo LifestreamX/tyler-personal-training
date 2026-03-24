@@ -83,6 +83,12 @@ export default function AssessmentPage() {
         throw new Error(data.error || 'Something went wrong');
       }
 
+      // Track successful form submission
+      trackGAEvent(GA_EVENT_NAMES.FORM_SUBMIT_ASSESSMENT, {
+        goals: formData.goals.join(', '),
+        training_preference: formData.trainingPreference,
+      });
+
       console.log('Form submitted:', formData);
       setIsSubmitted(true);
     } catch (error) {

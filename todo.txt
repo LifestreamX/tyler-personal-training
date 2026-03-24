@@ -64,3 +64,5 @@ TODO: Next Steps for Tyler Personal Training Website
 
  13. Set up custom domain and SSL
 
+ 14. GA4: Replace with real URL / test make sure working 
+

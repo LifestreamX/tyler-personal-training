@@ -4,10 +4,22 @@ import { motion } from 'framer-motion';
 import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { Card } from '@/components/ui/Card';
-import { InlineWidget } from 'react-calendly';
+import { InlineWidget, useCalendlyEventListener } from 'react-calendly';
 import { SITE_CONFIG } from '@/lib/constants';
+import { trackGAEvent, GA_EVENT_NAMES } from '@/lib/analytics';
 
 export default function BookingPage() {
+  // Listen for Calendly events
+  useCalendlyEventListener({
+    onEventScheduled: (e) => {
+      console.log('Calendly Event Scheduled:', e.data.payload);
+      trackGAEvent(GA_EVENT_NAMES.CLICK_BOOKING, {
+        method: 'calendly_inline',
+        event_uri: e.data.payload.event.uri,
+      });
+    },
+  });
+
   return (
     <>
       <Section className='pt-32 pb-16'>
