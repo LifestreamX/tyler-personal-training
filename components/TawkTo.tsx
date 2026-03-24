@@ -31,6 +31,12 @@ export function TawkTo() {
     // Append script to body
     document.body.appendChild(script);
 
+    // Inject CSS to hide Tawk.to attribution badge
+    const style = document.createElement('style');
+    style.innerHTML =
+      '[id^="hn"][href*="tawk.to"] { display: none !important; }';
+    document.body.appendChild(style);
+
     // Customize appearance to match site theme
     script.onload = () => {
       if ((window as any).Tawk_API) {

@@ -1,3 +1,19 @@
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 12px;
+  background: var(--color-muted);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-accent);
+  border-radius: 8px;
+  border: 2px solid var(--color-muted);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-hover);
+}
+::-webkit-scrollbar-corner {
+  background: var(--color-muted);
+}
 @import 'tailwindcss';
 
 @theme {

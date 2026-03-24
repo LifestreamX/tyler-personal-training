@@ -57,13 +57,14 @@ TODO: Next Steps for Tyler Personal Training Website
     4. See TAWKTO_SETUP.md for complete step-by-step instructions
     5. Download mobile app to respond to chats anywhere]
 
-16. Review and edit texts throughout the site / remove anything
 
-17. Test all forms and links:
-    - Assessment form (all steps)
-    - Contact form (success/error)
-    - Booking (Calendly)
-    - Navigation and CTAs
+
+
+
+
+ 
+ 16. Review and edit texts throughout the site / remove anything
+
 
 
  12. Deploy to Vercel or your preferred host
@@ -71,4 +72,11 @@ TODO: Next Steps for Tyler Personal Training Website
  13. Set up custom domain and SSL
 
  14. GA4: Replace with real URL / test make sure working 
+
+ 15. Test all deployed site 
+    - Assessment form (all steps)
+    - Contact form (success/error)
+    - Booking (Calendly)
+    - Navigation and CTAs
+
 

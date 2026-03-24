@@ -77,11 +77,15 @@ export default function BookingPage() {
               </ul>
             </Card>
 
-            <div style={{ minHeight: '800px' }}>
-              <Card className='overflow-hidden h-full'>
+            <div style={{ minHeight: '1100px' }}>
+              <Card className='h-full p-0 border-none bg-transparent shadow-none'>
                 <InlineWidget
                   url={SITE_CONFIG.calendlyUrl}
-                  styles={{ height: '100%', minHeight: '800px' }}
+                  styles={{
+                    height: '1100px',
+                    minHeight: '1100px',
+                    width: '100%',
+                  }}
                 />
               </Card>
             </div>
