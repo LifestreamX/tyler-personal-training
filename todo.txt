@@ -45,9 +45,8 @@ TODO: Next Steps for Tyler Personal Training Website
 ✅ 14. Add privacy policy and terms if collecting data
     [COMPLETED - Added comprehensive Privacy Policy and Terms of Service pages compliant with Massachusetts laws. Linked in the footer.]
 
-
-
-9. (Optional) Add analytics tracking IDs to .env.local and set up tracking
+✅ 9. Add analytics tracking IDs to .env.local and set up tracking
+   [COMPLETED - Google Analytics 4 integrated with Measurement ID G-0MH2GZ67GM. Analytics component created and added to root layout. Privacy Policy updated to mention Google Analytics data collection.]
 
 
 15. Live chat bot or something else

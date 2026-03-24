@@ -126,8 +126,25 @@ export default function PrivacyPolicyPage() {
                 submissions)
               </li>
               <li>
-                <strong>Web Analytics:</strong> I may use analytics tools to
-                better understand how users interact with my website.
+                <strong>Web Analytics:</strong> Google Analytics (to analyze
+                website traffic and understand how visitors use the site. Google
+                Analytics uses cookies to collect information such as how often
+                users visit the site, what pages they visit, and what other
+                sites they used prior to coming to this site. I use the
+                information to improve my website and services. Google Analytics
+                collects only the IP address assigned to you on the date you
+                visit the site, rather than your name or other identifying
+                information. For more information about how Google uses data,
+                visit{' '}
+                <a
+                  href='https://policies.google.com/privacy'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='text-accent hover:underline'
+                >
+                  Google&apos;s Privacy Policy
+                </a>
+                .)
               </li>
             </ul>
             <p className='mt-4'>
