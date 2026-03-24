@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow admin or private pages if any exist
+# Disallow: /api/
+
+# Sitemap location
+Sitemap: https://tyler-allen.com/sitemap.xml

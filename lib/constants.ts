@@ -109,7 +109,8 @@ export const TESTIMONIALS = [
 */
 
 export const CERTIFICATIONS = [
-  'Certified Personal Trainer',
+  'NASM Certified Personal Trainer',
   'CPR & First Aid Certified',
-  // Add your actual certifications here
+  'Nutrition Coaching Specialist',
+  // Add additional certifications as you earn them
 ] as const;
