@@ -35,7 +35,6 @@ export const SERVICES = [
       'Flexible scheduling (30 or 60-minute sessions)',
       'No gym membership required',
     ],
-    icon: '🏋️',
   },
   {
     id: 'online',
@@ -50,7 +49,6 @@ export const SERVICES = [
       'Nutrition guidance and macro calculations',
       'Flexible session times (30 or 60-minute sessions)',
     ],
-    icon: '💻',
   },
 ] as const;
 

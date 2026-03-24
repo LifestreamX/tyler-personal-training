@@ -33,7 +33,7 @@ TODO: Next Steps for Tyler Personal Training Website
 
 6. (Optional) Set up CMS integration (Sanity/Contentful)
 
-7. (Optional) Add analytics tracking IDs to .env.local
+7. (Optional) Add analytics tracking IDs to .env.local and set up tracking
 
 8. Test all forms and links:
    - Assessment form (all steps)
@@ -44,7 +44,9 @@ TODO: Next Steps for Tyler Personal Training Website
 ✅ 9. Check mobile responsiveness and design on real devices
    [COMPLETED - All pages optimized for mobile: responsive text sizes, proper grid breakpoints, adjusted padding, fixed Calendly height, stacking layouts for small screens]
 
-10. Replace any placeholder images or icons if needed
+✅ 10. Replace any placeholder images or icons if needed
+   [COMPLETED - All placeholder images and icons have been replaced or removed.]
+
 
 ✅ 11. Review and update SEO metadata per page if desired
    [COMPLETED - Comprehensive SEO implementation:
@@ -57,6 +59,8 @@ TODO: Next Steps for Tyler Personal Training Website
     - Canonical URLs and proper robots configuration
     - See SEO_GUIDE.md for complete details and post-launch checklist]
 
+12. Business Name
+
 12. Deploy to Vercel or your preferred host
 
 13. Set up custom domain and SSL
@@ -65,6 +69,6 @@ TODO: Next Steps for Tyler Personal Training Website
 
 16. Live chat bot or something else 
 
-17. GA4 tracking analytics
-
 ✅ 18. Favicon
+
+19. Review and edit texts throughou the site / remove anything 

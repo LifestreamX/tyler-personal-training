@@ -19,6 +19,11 @@ export default function AboutPage() {
             transition={{ duration: 0.6 }}
             className='max-w-3xl mx-auto text-center'
           >
+            <img
+              src='/assets/tyler.jpg'
+              alt='Tyler profile photo'
+              className='mx-auto mb-6 rounded-full w-32 h-32 object-cover border-4 border-primary shadow-lg'
+            />
             <h1 className='mb-6 text-2xl sm:text-3xl md:text-4xl'>
               About Tyler
             </h1>
@@ -49,15 +54,15 @@ export default function AboutPage() {
             </p>
             <p className='text-text-secondary mb-4'>
               What sets my coaching apart is genuine accountability and
-              personalized attention. I don&apos;t just write programs—I&apos;m
+              personalized attention. I don&apos;t just write programs. I&apos;m
               invested in your success. That means regular check-ins, form
               reviews, and honest feedback when you need it most.
             </p>
             <p className='text-text-secondary mb-4'>
               Whether you&apos;re dealing with injuries, medical conditions,
               busy schedules, or are completely new to training, I believe
-              effective training isn&apos;t about pushing harder—it&apos;s about
-              training smarter and building a foundation that lasts.
+              effective training isn&apos;t about pushing harder. It&apos;s
+              about training smarter and building a foundation that lasts.
             </p>
           </motion.div>
         </Container>

@@ -36,7 +36,6 @@ export function Services() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
             >
               <Card hover className='h-full'>
-                <div className='text-4xl mb-4'>{service.icon}</div>
                 <h3 className='text-2xl font-bold mb-3'>{service.title}</h3>
                 <p className='text-text-secondary mb-4'>
                   {service.description}
