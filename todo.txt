@@ -62,4 +62,4 @@ TODO: Next Steps for Tyler Personal Training Website
 
 17. GA4 tracking analytics
 
-18. Favicon
+✅ 18. Favicon
