@@ -9,7 +9,10 @@ export const GA_EVENT_NAMES = {
 /**
  * Log a custom event to Google Analytics
  */
-export const trackGAEvent = (eventName: string, eventParams: Record<string, any> = {}) => {
+export const trackGAEvent = (
+  eventName: string,
+  eventParams: Record<string, any> = {},
+) => {
   if (typeof window !== 'undefined' && (window as any).gtag) {
     (window as any).gtag('event', eventName, eventParams);
   }

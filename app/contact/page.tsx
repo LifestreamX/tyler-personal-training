@@ -77,7 +77,9 @@ export default function ContactPage() {
             transition={{ duration: 0.6 }}
             className='text-center mb-12'
           >
-            <h1 className='mb-4 text-2xl sm:text-3xl md:text-4xl'>Get In Touch</h1>
+            <h1 className='mb-4 text-2xl sm:text-3xl md:text-4xl'>
+              Get In Touch
+            </h1>
             <p className='text-base sm:text-lg text-text-secondary'>
               Have questions? Ready to start your fitness journey? Let&apos;s
               talk.
@@ -92,7 +94,9 @@ export default function ContactPage() {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <Card>
-                <h2 className='text-xl sm:text-2xl font-bold mb-6'>Send a Message</h2>
+                <h2 className='text-xl sm:text-2xl font-bold mb-6'>
+                  Send a Message
+                </h2>
 
                 {status === 'success' && (
                   <div className='mb-6 p-4 bg-green-100 border border-green-400 rounded-lg'>
