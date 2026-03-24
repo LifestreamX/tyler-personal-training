@@ -46,10 +46,16 @@ TODO: Next Steps for Tyler Personal Training Website
     [COMPLETED - Added comprehensive Privacy Policy and Terms of Service pages compliant with Massachusetts laws. Linked in the footer.]
 
 ✅ 9. Add analytics tracking IDs to .env.local and set up tracking
-   [COMPLETED - Google Analytics 4 integrated with Measurement ID G-0MH2GZ67GM. Analytics component created and added to root layout. Privacy Policy updated to mention Google Analytics data collection.]
+   [COMPLETED - Google Analytics 4 integrated with Measurement ID G-0MH2GZ67GM. Analytics component created and added to root layout. Privacy Policy updated to mention Google Analytics data collection. Advanced event tracking for forms and CTA buttons implemented.]
 
-
-15. Live chat bot or something else
+✅ 15. Live chat bot or something else
+   [COMPLETED - Tawk.to live chat integrated into the site. Component created and added to root layout. Privacy Policy updated. 
+    NEXT STEPS: 
+    1. Sign up at https://www.tawk.to/ (100% free)
+    2. Get your Property ID and Widget ID
+    3. Add them to .env.local (uncomment the TAWK lines)
+    4. See TAWKTO_SETUP.md for complete step-by-step instructions
+    5. Download mobile app to respond to chats anywhere]
 
 16. Review and edit texts throughout the site / remove anything
 

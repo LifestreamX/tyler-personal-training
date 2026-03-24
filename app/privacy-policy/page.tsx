@@ -126,6 +126,22 @@ export default function PrivacyPolicyPage() {
                 submissions)
               </li>
               <li>
+                <strong>Live Chat:</strong> Tawk.to (for providing real-time
+                chat support. When you use the live chat feature, Tawk.to may
+                collect your name, email address, and chat messages to
+                facilitate our conversation. For more information about
+                Tawk.to&apos;s privacy practices, visit{' '}
+                <a
+                  href='https://www.tawk.to/privacy-policy/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='text-accent hover:underline'
+                >
+                  Tawk.to&apos;s Privacy Policy
+                </a>
+                .)
+              </li>
+              <li>
                 <strong>Web Analytics:</strong> Google Analytics (to analyze
                 website traffic and understand how visitors use the site. Google
                 Analytics uses cookies to collect information such as how often

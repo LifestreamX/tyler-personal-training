@@ -3,6 +3,7 @@ import './globals.css';
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import { GoogleAnalytics } from '@/components/GoogleAnalytics';
+import { TawkTo } from '@/components/TawkTo';
 import { SITE_CONFIG } from '@/lib/constants';
 import { BASE_URL, SEO_KEYWORDS, generateStructuredData } from '@/lib/seo';
 
@@ -114,6 +115,7 @@ export default function RootLayout({
       </head>
       <body className='min-h-full flex flex-col'>
         <GoogleAnalytics />
+        <TawkTo />
         <Navbar />
         <main className='grow'>{children}</main>
         <Footer />

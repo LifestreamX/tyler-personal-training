@@ -6,6 +6,8 @@ import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
+import { SITE_CONFIG } from '@/lib/constants';
+import { trackGAEvent, GA_EVENT_NAMES } from '@/lib/analytics';
 
 interface FormData {
   name: string;
