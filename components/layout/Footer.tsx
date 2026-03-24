@@ -62,6 +62,14 @@ export function Footer() {
           <p>
             &copy; {currentYear} {SITE_CONFIG.name}. All rights reserved.
           </p>
+          <div className='mt-2 space-x-4'>
+            <Link href='/privacy-policy' className='hover:text-accent'>
+              Privacy Policy
+            </Link>
+            <Link href='/terms-of-service' className='hover:text-accent'>
+              Terms of Service
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

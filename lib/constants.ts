@@ -1,5 +1,5 @@
 export const SITE_CONFIG = {
-  name: 'Tyler Allen',
+  name: 'Tyler Allen Personal Training',
   tagline: 'Your Partner in Fitness Excellence',
   description:
     'Professional personal training in the Boston area. Specializing in strength training, fat loss, and building sustainable fitness habits that last.',

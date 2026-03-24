@@ -38,6 +38,8 @@ export default function AssessmentPage() {
   const [formData, setFormData] = useState<FormData>(initialFormData);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [otherGoal, setOtherGoal] = useState('');
+  const [otherSelected, setOtherSelected] = useState(false);
 
   const totalSteps = 5;
 
@@ -230,7 +232,7 @@ export default function AssessmentPage() {
                 <p className='text-text-secondary mb-4'>
                   Select all that apply:
                 </p>
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-4'>
                   {[
                     'Fat Loss',
                     'Muscle Building',
@@ -256,7 +258,59 @@ export default function AssessmentPage() {
                       </div>
                     </button>
                   ))}
+                  {/* Other option */}
+                  <button
+                    type='button'
+                    onClick={() => {
+                      setOtherSelected((prev) => !prev);
+                      if (!otherSelected && otherGoal) {
+                        updateFormData('goals', [...formData.goals, otherGoal]);
+                      } else if (otherSelected) {
+                        updateFormData(
+                          'goals',
+                          formData.goals.filter((g) => g !== otherGoal),
+                        );
+                        setOtherGoal('');
+                      }
+                    }}
+                    className={`p-4 border-2 rounded-lg text-left transition-all ${
+                      otherSelected
+                        ? 'border-accent bg-accent/10'
+                        : 'border-border hover:border-accent/50'
+                    }`}
+                  >
+                    <div className='flex items-center justify-between'>
+                      <span className='font-medium'>Other</span>
+                      {otherSelected && <span className='text-accent'>✓</span>}
+                    </div>
+                  </button>
                 </div>
+                {otherSelected && (
+                  <input
+                    type='text'
+                    value={otherGoal}
+                    onChange={(e) => {
+                      const value = e.target.value;
+                      setOtherGoal(value);
+                      // Add or update the custom goal in the goals array
+                      if (value) {
+                        if (!formData.goals.includes(value)) {
+                          updateFormData('goals', [
+                            ...formData.goals.filter((g) => g !== otherGoal),
+                            value,
+                          ]);
+                        }
+                      } else {
+                        updateFormData(
+                          'goals',
+                          formData.goals.filter((g) => g !== otherGoal),
+                        );
+                      }
+                    }}
+                    className='w-full bg-background border border-border rounded-lg px-4 py-3 focus:outline-none focus:border-accent mb-2'
+                    placeholder='Enter your goal'
+                  />
+                )}
               </motion.div>
             )}
 
@@ -346,9 +400,10 @@ export default function AssessmentPage() {
                       {[
                         {
                           value: 'in-person',
-                          label: 'In-Person (Boston Area)',
+                          label:
+                            'In-Person (Boston Area & Surrounding Suburbs)',
                         },
-                        { value: 'online', label: 'Online Coaching' },
+                        { value: 'online', label: 'Online' },
                         { value: 'hybrid', label: 'Hybrid (Mix of Both)' },
                       ].map((option) => (
                         <button
