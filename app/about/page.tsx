@@ -19,8 +19,10 @@ export default function AboutPage() {
             transition={{ duration: 0.6 }}
             className='max-w-3xl mx-auto text-center'
           >
-            <h1 className='mb-6'>About Tyler</h1>
-            <p className='text-xl text-text-secondary'>
+            <h1 className='mb-6 text-2xl sm:text-3xl md:text-4xl'>
+              About Tyler
+            </h1>
+            <p className='text-base sm:text-lg md:text-xl text-text-secondary'>
               Certified trainer. Evidence-based approach. Results that actually
               last.
             </p>
@@ -38,7 +40,7 @@ export default function AboutPage() {
             transition={{ duration: 0.6 }}
             className='prose prose-lg prose-invert max-w-none'
           >
-            <h2 className='text-3xl font-bold mb-6'>My Approach</h2>
+            <h2 className='text-2xl sm:text-3xl font-bold mb-6'>My Approach</h2>
             <p className='text-text-secondary mb-4'>
               I&apos;m passionate about helping people build sustainable fitness
               habits that actually fit into their lives. No cookie-cutter
@@ -155,7 +157,7 @@ export default function AboutPage() {
             className='text-center mb-12'
           >
             <h2 className='mb-4'>Certifications & Credentials</h2>
-            <p className='text-xl text-text-secondary max-w-2xl mx-auto'>
+            <p className='text-base sm:text-lg md:text-xl text-text-secondary max-w-2xl mx-auto'>
               Continuously educated. Always learning. Evidence-driven practice.
             </p>
           </motion.div>
@@ -165,11 +167,11 @@ export default function AboutPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'
+            className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'
           >
             {CERTIFICATIONS.map((cert, index) => (
               <Card key={index} className='text-center'>
-                <div className='text-4xl mb-3'>🏆</div>
+                <div className='text-2xl sm:text-3xl md:text-4xl mb-3'>🏆</div>
                 <p className='font-semibold'>{cert}</p>
               </Card>
             ))}

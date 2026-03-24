@@ -88,8 +88,8 @@ export default function AssessmentPage() {
               <h1 className='text-3xl font-bold mb-4'>Assessment Submitted!</h1>
               <p className='text-text-secondary text-lg mb-8'>
                 Thank you for completing your fitness assessment. I&apos;ll
-                review your information and reach out within 24 hours to discuss
-                next steps.
+                review your information and reach out as soon as possible to
+                discuss next steps.
               </p>
               <p className='text-text-secondary mb-8'>
                 Check your email for a confirmation and additional information.
@@ -113,8 +113,10 @@ export default function AssessmentPage() {
           transition={{ duration: 0.6 }}
           className='mb-12 text-center'
         >
-          <h1 className='mb-4'>Fitness Assessment</h1>
-          <p className='text-xl text-text-secondary'>
+          <h1 className='mb-4 text-2xl sm:text-3xl md:text-4xl'>
+            Fitness Assessment
+          </h1>
+          <p className='text-base sm:text-lg text-text-secondary'>
             Help me understand your goals so I can create the perfect plan for
             you
           </p>
@@ -150,7 +152,9 @@ export default function AssessmentPage() {
                 exit={{ opacity: 0, x: -20 }}
                 transition={{ duration: 0.3 }}
               >
-                <h2 className='text-2xl font-bold mb-6'>Basic Information</h2>
+                <h2 className='text-xl sm:text-2xl font-bold mb-6'>
+                  Basic Information
+                </h2>
                 <div className='space-y-4'>
                   <div>
                     <label className='block text-sm font-medium mb-2'>
@@ -203,7 +207,9 @@ export default function AssessmentPage() {
                 exit={{ opacity: 0, x: -20 }}
                 transition={{ duration: 0.3 }}
               >
-                <h2 className='text-2xl font-bold mb-6'>Your Goals</h2>
+                <h2 className='text-xl sm:text-2xl font-bold mb-6'>
+                  Your Goals
+                </h2>
                 <p className='text-text-secondary mb-4'>
                   Select all that apply:
                 </p>
@@ -245,7 +251,7 @@ export default function AssessmentPage() {
                 exit={{ opacity: 0, x: -20 }}
                 transition={{ duration: 0.3 }}
               >
-                <h2 className='text-2xl font-bold mb-6'>
+                <h2 className='text-xl sm:text-2xl font-bold mb-6'>
                   Experience & Background
                 </h2>
                 <div className='space-y-6'>
@@ -283,7 +289,7 @@ export default function AssessmentPage() {
                     <label className='block text-sm font-medium mb-3'>
                       Age Range *
                     </label>
-                    <div className='grid grid-cols-2 gap-3'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-3'>
                       {['14-25', '26-40', '41-55', '56+'].map((range) => (
                         <button
                           key={range}
@@ -311,7 +317,7 @@ export default function AssessmentPage() {
                 exit={{ opacity: 0, x: -20 }}
                 transition={{ duration: 0.3 }}
               >
-                <h2 className='text-2xl font-bold mb-6'>
+                <h2 className='text-xl sm:text-2xl font-bold mb-6'>
                   Training Preferences
                 </h2>
                 <div className='space-y-6'>
@@ -370,7 +376,9 @@ export default function AssessmentPage() {
                 exit={{ opacity: 0, x: -20 }}
                 transition={{ duration: 0.3 }}
               >
-                <h2 className='text-2xl font-bold mb-6'>Final Details</h2>
+                <h2 className='text-xl sm:text-2xl font-bold mb-6'>
+                  Final Details
+                </h2>
                 <div className='space-y-6'>
                   <div>
                     <label className='block text-sm font-medium mb-2'>

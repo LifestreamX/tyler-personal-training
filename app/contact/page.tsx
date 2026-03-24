@@ -33,7 +33,12 @@ export default function ContactPage() {
       });
 
       if (!response.ok) {
-        throw new Error('Failed to send message');
+        const errorData = await response.json();
+        throw new Error(
+          errorData.error ||
+            errorData.details?.message ||
+            'Failed to send message',
+        );
       }
 
       setStatus('success');
@@ -66,14 +71,14 @@ export default function ContactPage() {
             transition={{ duration: 0.6 }}
             className='text-center mb-12'
           >
-            <h1 className='mb-4'>Get In Touch</h1>
-            <p className='text-xl text-text-secondary'>
+            <h1 className='mb-4 text-2xl sm:text-3xl md:text-4xl'>Get In Touch</h1>
+            <p className='text-base sm:text-lg text-text-secondary'>
               Have questions? Ready to start your fitness journey? Let&apos;s
               talk.
             </p>
           </motion.div>
 
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
             {/* Contact Form */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -81,13 +86,13 @@ export default function ContactPage() {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <Card>
-                <h2 className='text-2xl font-bold mb-6'>Send a Message</h2>
+                <h2 className='text-xl sm:text-2xl font-bold mb-6'>Send a Message</h2>
 
                 {status === 'success' && (
-                  <div className='mb-6 p-4 bg-accent/10 border border-accent rounded-lg'>
-                    <p className='text-accent font-medium'>
-                      ✓ Message sent successfully! I&apos;ll get back to you
-                      within 24 hours.
+                  <div className='mb-6 p-4 bg-green-100 border border-green-400 rounded-lg'>
+                    <p className='text-green-700 font-medium'>
+                      ✓ Message sent successfully! I&apos;ll respond as soon as
+                      possible.
                     </p>
                   </div>
                 )}
@@ -230,8 +235,8 @@ export default function ContactPage() {
               <Card>
                 <h3 className='text-xl font-bold mb-4'>Response Time</h3>
                 <p className='text-text-secondary mb-4'>
-                  I typically respond to all inquiries within 24 hours during
-                  business days. For urgent matters, please call directly.
+                  I&apos;ll respond as soon as possible. For urgent matters,
+                  please call directly.
                 </p>
                 <div className='text-sm text-text-secondary'>
                   <p className='mb-1'>Monday - Friday: 6am - 8pm</p>

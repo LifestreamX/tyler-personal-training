@@ -1,4 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { Resend } from 'resend';
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request: NextRequest) {
   try {
@@ -22,28 +25,28 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // TODO: Integrate with your email service
-    // Options:
-    // 1. SendGrid: https://www.sendgrid.com/
-    // 2. Resend: https://resend.com/
-    // 3. Nodemailer with SMTP
-    // 4. AWS SES
-
-    // For now, just log the data (replace with actual email service)
-    console.log('Contact form submission:', {
-      name,
-      email,
-      phone,
-      message,
-      timestamp: new Date().toISOString(),
+    // Send email using Resend
+    const sendResult = await resend.emails.send({
+      from: 'Contact Form <noreply@tyler-allen.com>',
+      to: process.env.CONTACT_EMAIL || 'tylerallen@live.com',
+      subject: `New Contact Form Submission from ${name}`,
+      replyTo: email,
+      text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone || 'N/A'}\nMessage: ${message}`,
     });
 
-    // Example with environment variable for email service
-    // const apiKey = process.env.SENDGRID_API_KEY;
-    // await sendEmail({ to: process.env.CONTACT_EMAIL, from: email, subject: `Contact from ${name}`, body: message });
+    if (sendResult.error) {
+      console.error('Resend error:', sendResult.error);
+      return NextResponse.json(
+        { error: 'Failed to send email', details: sendResult.error },
+        { status: 500 },
+      );
+    }
 
     return NextResponse.json(
-      { success: true, message: 'Message received successfully' },
+      {
+        success: true,
+        message: 'Message received and email sent successfully',
+      },
       { status: 200 },
     );
   } catch (error) {

@@ -31,7 +31,9 @@ export default function BookingPage() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <Card className='mb-8'>
-              <h2 className='text-2xl font-bold mb-4'>What to Expect</h2>
+              <h2 className='text-xl sm:text-2xl font-bold mb-4'>
+                What to Expect
+              </h2>
               <ul className='space-y-3 text-text-secondary'>
                 <li className='flex items-start'>
                   <span className='text-accent mr-3'>✓</span>
@@ -63,12 +65,14 @@ export default function BookingPage() {
               </ul>
             </Card>
 
-            <Card className='overflow-hidden'>
-              <InlineWidget
-                url={SITE_CONFIG.calendlyUrl}
-                styles={{ height: '1250px' }}
-              />
-            </Card>
+            <div style={{ minHeight: '800px' }}>
+              <Card className='overflow-hidden h-full'>
+                <InlineWidget
+                  url={SITE_CONFIG.calendlyUrl}
+                  styles={{ height: '100%', minHeight: '800px' }}
+                />
+              </Card>
+            </div>
           </motion.div>
         </Container>
       </Section>

@@ -59,7 +59,7 @@ export function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className='mt-12 grid grid-cols-3 gap-8 max-w-2xl mx-auto'
+            className='mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto'
           >
             <div>
               <div className='text-3xl md:text-4xl font-bold text-accent'>

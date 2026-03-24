@@ -25,7 +25,7 @@ export function Navbar() {
     <nav
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
-        isScrolled
+        isScrolled || isMobileMenuOpen
           ? 'bg-background/95 backdrop-blur-md border-b border-border shadow-lg'
           : 'bg-transparent',
       )}
@@ -35,7 +35,7 @@ export function Navbar() {
           {/* Logo */}
           <Link
             href='/'
-            className='text-2xl font-bold hover:text-accent transition-colors'
+            className='text-xl sm:text-2xl font-bold hover:text-accent transition-colors'
           >
             {SITE_CONFIG.name}
           </Link>
@@ -85,7 +85,7 @@ export function Navbar() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className='md:hidden py-4 border-t border-border'>
+          <div className='md:hidden py-4 border-t border-border bg-background/98 backdrop-blur-lg'>
             <div className='flex flex-col space-y-4'>
               {NAVIGATION.map((item) => (
                 <Link

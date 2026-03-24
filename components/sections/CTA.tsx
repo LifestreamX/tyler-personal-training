@@ -31,10 +31,10 @@ export function CTA({
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className='bg-linear-to-r from-accent to-accent-hover rounded-2xl p-12 text-center'
+          className='bg-linear-to-r from-accent to-accent-hover rounded-2xl p-6 sm:p-8 md:p-12 text-center'
         >
           <h2 className='mb-4 text-white'>{title}</h2>
-          <p className='text-xl text-white/90 mb-8 max-w-2xl mx-auto'>
+          <p className='text-base sm:text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto'>
             {description}
           </p>
           <div className='flex flex-col sm:flex-row gap-4 justify-center'>

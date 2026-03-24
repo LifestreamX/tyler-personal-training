@@ -3,7 +3,7 @@ export const SITE_CONFIG = {
   tagline: 'Your Partner in Fitness Excellence',
   description:
     'Professional personal training in the Boston area. Specializing in strength training, fat loss, and building sustainable fitness habits that last.',
-  location: 'Quincy, MA',
+  location: 'Boston, MA',
   email: 'tylerallen@live.com',
   phone: '(774) 279-1607',
   calendlyUrl:
@@ -17,62 +17,40 @@ export const NAVIGATION = [
   { name: 'Services', href: '/services' },
   { name: 'Assessment', href: '/assessment' },
   { name: 'Booking', href: '/booking' },
-  { name: 'Testimonials', href: '/testimonials' },
+  // { name: 'Testimonials', href: '/testimonials' },
   { name: 'Contact', href: '/contact' },
 ] as const;
 
 export const SERVICES = [
   {
     id: 'in-person',
-    title: 'In-Person Training',
+    title: 'In-Home Personal Training',
     description:
-      'One-on-one training sessions at premium facilities in the Boston area. Personalized attention, real-time feedback, and maximum accountability.',
+      'I travel to your home in the Boston area for personalized one-on-one training sessions. Bring the gym experience to your space with professional coaching, custom programs, and nutrition guidance.',
     benefits: [
-      'Direct coaching and form correction',
-      'Access to premium equipment',
-      'Flexible scheduling',
-      'Results-driven programming',
+      'Training at your home on your schedule',
+      'Direct coaching and real-time form correction',
+      'Custom workout programs tailored to your goals',
+      'Nutrition guidance and meal planning support',
+      'Flexible scheduling (30 or 60-minute sessions)',
+      'No gym membership required',
     ],
     icon: '🏋️',
   },
   {
     id: 'online',
-    title: 'Online Coaching',
+    title: 'Online Remote Training',
     description:
-      'Train anywhere with custom programs, video check-ins, and continuous support. Perfect for busy professionals and remote clients.',
+      'Train anywhere with personalized remote coaching via video calls. Perfect for busy professionals, remote workers, or anyone who prefers the flexibility of training from home or while traveling.',
     benefits: [
-      'Custom workout programs',
-      'Weekly check-ins',
-      'Form review via video',
-      '24/7 messaging support',
+      'Custom workout programs designed for you',
+      'Live video training sessions',
+      'Weekly check-ins and progress tracking',
+      'Form review and technique feedback via video',
+      'Nutrition guidance and macro calculations',
+      'Flexible session times (30 or 60-minute sessions)',
     ],
     icon: '💻',
-  },
-  {
-    id: 'custom-programs',
-    title: 'Custom Programs',
-    description:
-      'Tailored training programs designed specifically for your goals, schedule, and equipment availability.',
-    benefits: [
-      'Goal-specific programming',
-      'Equipment-based customization',
-      'Progressive overload tracking',
-      'Monthly program updates',
-    ],
-    icon: '📋',
-  },
-  {
-    id: 'nutrition',
-    title: 'Nutrition Guidance',
-    description:
-      'Evidence-based nutrition coaching to complement your training. Sustainable strategies, no crash diets.',
-    benefits: [
-      'Macro calculations',
-      'Meal planning guidance',
-      'Supplement recommendations',
-      'Lifestyle-based approach',
-    ],
-    icon: '🥗',
   },
 ] as const;
 

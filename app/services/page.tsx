@@ -22,7 +22,7 @@ export default function ServicesPage() {
             className='max-w-3xl mx-auto text-center'
           >
             <h1 className='mb-6'>Training Services</h1>
-            <p className='text-xl text-text-secondary'>
+            <p className='text-base sm:text-lg md:text-xl text-text-secondary'>
               Choose the coaching option that fits your lifestyle. All programs
               include personalized programming, ongoing support, and maximum
               accountability.
@@ -34,7 +34,7 @@ export default function ServicesPage() {
       {/* Services Grid */}
       <Section>
         <Container>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
             {SERVICES.map((service, index) => (
               <motion.div
                 key={service.id}
@@ -45,7 +45,9 @@ export default function ServicesPage() {
               >
                 <Card hover className='h-full'>
                   <div className='text-5xl mb-4'>{service.icon}</div>
-                  <h2 className='text-3xl font-bold mb-4'>{service.title}</h2>
+                  <h2 className='text-xl sm:text-2xl md:text-3xl font-bold mb-4'>
+                    {service.title}
+                  </h2>
                   <p className='text-text-secondary text-lg mb-6'>
                     {service.description}
                   </p>
@@ -85,7 +87,7 @@ export default function ServicesPage() {
             className='text-center mb-12'
           >
             <h2 className='mb-4'>How It Works</h2>
-            <p className='text-xl text-text-secondary max-w-2xl mx-auto'>
+            <p className='text-base sm:text-lg md:text-xl text-text-secondary max-w-2xl mx-auto'>
               A proven process designed to get you results from day one
             </p>
           </motion.div>
@@ -125,7 +127,7 @@ export default function ServicesPage() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
               >
                 <Card className='text-center h-full'>
-                  <div className='text-4xl font-bold text-accent mb-3'>
+                  <div className='text-2xl sm:text-3xl md:text-4xl font-bold text-accent mb-3'>
                     {process.step}
                   </div>
                   <h3 className='text-xl font-bold mb-2'>{process.title}</h3>
@@ -149,7 +151,7 @@ export default function ServicesPage() {
             transition={{ duration: 0.6 }}
           >
             <Card className='text-center'>
-              <h2 className='text-2xl font-bold mb-4'>
+              <h2 className='text-xl sm:text-2xl md:text-3xl font-bold mb-4'>
                 Investment & Commitment
               </h2>
               <p className='text-text-secondary mb-4'>
