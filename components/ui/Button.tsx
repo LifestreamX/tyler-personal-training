@@ -46,12 +46,15 @@ export function Button({
   );
 
   if (asChild && children) {
-    return cloneElement(children as ReactElement, {
-      className: cn(
-        ((children as ReactElement).props as any).className,
-        combinedClassName,
-      ),
-    } as any);
+    return cloneElement(
+      children as ReactElement,
+      {
+        className: cn(
+          ((children as ReactElement).props as any).className,
+          combinedClassName,
+        ),
+      } as any,
+    );
   }
 
   return (

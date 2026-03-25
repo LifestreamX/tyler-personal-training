@@ -1,82 +1,28 @@
+
 TODO: Next Steps for Tyler Personal Training Website
 
-✅ 1. Update all content in /lib/constants.ts:
-   - Site name, tagline, description
-   - Contact info (email, phone, location)
-   - Services, testimonials, certifications
-   [COMPLETED - Updated with your real info. Testimonials section has 1 placeholder - add more as you get real client feedback]
-
-✅ 2. Add your real Calendly link to .env.local:
-   - NEXT_PUBLIC_CALENDLY_URL="https://calendly.com/your-link"
-   [COMPLETED - Added link and integrated react-calendly widget on booking page]
-
-✅ 3. Set your real contact email in .env.local:
-   - CONTACT_EMAIL="tylerallen@live.com"
-   [COMPLETED - Contact email set in .env.local]
-
-✅ 4. Configure email service for contact form:
-   - Choose SendGrid, Resend, or SMTP (see SETUP.md)
-   - Add API keys to .env.local
-   - Update /app/api/contact/route.ts if needed
-   [COMPLETED - Resend integrated with verified domain tyler-allen.com, sending to tylerallen@live.com]
-
+--- Completed ---
+✅ 1. Update all content in /lib/constants.ts (site name, tagline, description, contact info, services, testimonials, certifications)
+✅ 2. Add your real Calendly link to .env.local and integrate widget
+✅ 3. Set your real contact email in .env.local
+✅ 4. Configure email service for contact form (Resend integrated)
 ✅ 5. Check mobile responsiveness and design on real devices
-   [COMPLETED - All pages optimized for mobile: responsive text sizes, proper grid breakpoints, adjusted padding, fixed Calendly height, stacking layouts for small screens]
-
-✅ 6. Replace any placeholder images or icons if needed
-   [COMPLETED - All placeholder images and icons have been replaced or removed.]
-
-✅ 7. Review and update SEO metadata per page if desired
-   [COMPLETED - Comprehensive SEO implementation:
-    - Unique metadata for all pages (titles, descriptions, keywords)
-    - Open Graph and Twitter Card tags for social sharing
-    - Structured data (JSON-LD): LocalBusiness, Person, Organization, Service, FAQ schemas
-    - robots.txt and sitemap.xml generation
-    - FAQ section with structured data for rich snippets
-    - Local SEO optimization for Boston, MA
-    - Canonical URLs and proper robots configuration
-    - See SEO_GUIDE.md for complete details and post-launch checklist]
-
+✅ 6. Replace any placeholder images or icons
+✅ 7. Review and update SEO metadata per page
 ✅ 8. Favicon
+✅ 9. Add analytics tracking IDs to .env.local and set up tracking (GA4)
+✅ 10. Business Name set to "Tyler Allen Personal Training"
+✅ 11. Add privacy policy and terms if collecting data
+✅ 12. Live chat bot (Tawk.to) integrated
 
-✅ 11. Business Name
-   [COMPLETED - Business name set to "Tyler Allen Personal Training" across the site.]
-
-✅ 14. Add privacy policy and terms if collecting data
-    [COMPLETED - Added comprehensive Privacy Policy and Terms of Service pages compliant with Massachusetts laws. Linked in the footer.]
-
-✅ 9. Add analytics tracking IDs to .env.local and set up tracking
-   [COMPLETED - Google Analytics 4 integrated with Measurement ID G-0MH2GZ67GM. Analytics component created and added to root layout. Privacy Policy updated to mention Google Analytics data collection. Advanced event tracking for forms and CTA buttons implemented.]
-
-✅ 15. Live chat bot or something else
-   [COMPLETED - Tawk.to live chat integrated into the site. Component created and added to root layout. Privacy Policy updated. 
-    NEXT STEPS: 
-    1. Sign up at https://www.tawk.to/ (100% free)
-    2. Get your Property ID and Widget ID
-    3. Add them to .env.local (uncomment the TAWK lines)
-    4. See TAWKTO_SETUP.md for complete step-by-step instructions
-    5. Download mobile app to respond to chats anywhere]
-
-
-
-
-
-
- 
- 16. Review and edit texts throughout the site / remove anything
-
-
-
- 12. Deploy to Vercel or your preferred host
-
- 13. Set up custom domain and SSL
-
- 14. GA4: Replace with real URL / test make sure working 
-
- 15. Test all deployed site 
+--- In Progress / Next ---
+13. Set up custom domain and SSL
+14. GA4: Replace with real URL / test make sure working
+15. Test all deployed site:
     - Assessment form (all steps)
     - Contact form (success/error)
     - Booking (Calendly)
     - Navigation and CTAs
 
+ 
 
