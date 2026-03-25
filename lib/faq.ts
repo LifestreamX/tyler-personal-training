@@ -7,17 +7,17 @@ export const FAQ_DATA = [
   {
     question: 'Do you offer in-home training in Boston?',
     answer:
-      'Yes! I provide in-home personal training throughout the Boston area. I bring all necessary equipment and create custom workouts for your space.',
+      'Yes! I provide in-home personal training in Boston and surrounding areas, depending on distance. I create custom workouts for your space and can advise on any equipment you might need.',
   },
   {
     question: 'What is online personal training like?',
     answer:
-      'Online training includes live video sessions where I guide you through workouts in real-time, plus custom programming, weekly check-ins, form reviews, and nutrition guidance.',
+      'Online personal training is 1-on-1 video coaching. We meet live to go through each exercise in your personalized program, with real-time feedback and form correction. You get custom programming, weekly check-ins, and ongoing support for nutrition and progress.',
   },
   {
     question: 'How often should I train per week?',
     answer:
-      'Most clients see great results training 2-4 times per week. The right frequency depends on your goals, schedule, and recovery capacity. I will create a plan that works for you.',
+      'How often you should train depends on your goals, current fitness level, schedule, and recovery needs. Some clients train once a week, others 3-4 times, and it can change over time. I’ll help you find a routine that fits your life and gets results.',
   },
   {
     question: 'Do you provide nutrition coaching?',
@@ -35,19 +35,14 @@ export const FAQ_DATA = [
       'I provide in-home training throughout Boston and surrounding areas within a reasonable travel distance. Contact me to confirm service availability in your specific location.',
   },
   {
-    question: 'What certifications do you have?',
-    answer:
-      'I am a NASM Certified Personal Trainer, CPR & First Aid Certified, and a Nutrition Coaching Specialist.',
-  },
-  {
     question: 'How long are training sessions?',
     answer:
       'Sessions are available in 30-minute or 60-minute formats for both in-home and online training, depending on your schedule and goals.',
   },
   {
-    question: 'Do I need equipment for online training?',
+    question: 'Do I need equipment for home or online training?',
     answer:
-      'It depends on your goals. I can design effective programs with minimal equipment or bodyweight only. For best results, basic equipment like dumbbells or resistance bands is helpful.',
+      "You don't need a full gym. Many clients start with just bands, a pair of dumbbells and a physio ball. I'll review what you have and recommend only what's truly helpful for your goals, so you never have to guess or buy unnecessary gear.",
   },
 ] as const;
 

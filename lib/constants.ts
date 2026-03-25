@@ -54,24 +54,24 @@ export const SERVICES = [
 
 export const WHO_I_WORK_WITH = [
   {
-    title: 'Busy Professionals',
+    title: 'Busy Schedules',
     description:
-      'Maximize results with efficient, time-optimized training that fits your schedule.',
+      'Flexible, efficient training for professionals, parents, and anyone short on time.',
   },
   {
-    title: 'Beginners',
+    title: 'Chronic Conditions',
     description:
-      'Build a strong foundation with proper technique and sustainable habits.',
+      'Experience working with various conditions and diseases, including cognitive health (Alzheimer’s/Dementia).',
   },
   {
-    title: 'Adults 40+',
+    title: 'Injury Rehab',
     description:
-      'Age-appropriate training focused on longevity, mobility, and strength retention.',
+      'Focus on safe, effective rehabilitation and long-term injury prevention through smart movement.',
   },
   {
-    title: 'Strength Focused',
+    title: 'Beginners & Pros',
     description:
-      'Advanced programming for serious lifters looking to break plateaus.',
+      'From absolute beginners building foundations to experienced lifters wanting to be pushed.',
   },
 ] as const;
 

@@ -137,13 +137,15 @@ export default function AboutPage() {
                   <li className='flex items-start'>
                     <span className='text-accent mr-2'>•</span>
                     <span>
-                      Ages 14 to 80+: Training adapted for any stage of life
+                      Clients from age 14 to over 80—including teens, adults,
+                      and seniors seeking strength, mobility, or longevity
                     </span>
                   </li>
                   <li className='flex items-start'>
                     <span className='text-accent mr-2'>•</span>
                     <span>
-                      Individuals managing chronic conditions or diseases
+                      Individuals managing chronic conditions, injuries, or
+                      diseases (including cognitive health)
                     </span>
                   </li>
                   <li className='flex items-start'>
