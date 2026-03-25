@@ -44,7 +44,6 @@ export default function ServicesPage() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
               >
                 <Card hover className='h-full'>
-                  <div className='text-5xl mb-4'>{service.icon}</div>
                   <h2 className='text-xl sm:text-2xl md:text-3xl font-bold mb-4'>
                     {service.title}
                   </h2>
