@@ -51,7 +51,7 @@ export function Button({
         (children as ReactElement).props.className,
         combinedClassName,
       ),
-    });
+    } as any);
   }
 
   return (
