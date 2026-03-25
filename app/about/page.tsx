@@ -28,8 +28,8 @@ export default function AboutPage() {
               About Tyler
             </h1>
             <p className='text-base sm:text-lg md:text-xl text-text-secondary'>
-              Certified trainer. Evidence-based approach. Results that actually
-              last.
+              Certified trainer with 8+ years of experience. Evidence-based
+              approach. Results that actually last.
             </p>
           </motion.div>
         </Container>
@@ -47,10 +47,13 @@ export default function AboutPage() {
           >
             <h2 className='text-2xl sm:text-3xl font-bold mb-6'>My Approach</h2>
             <p className='text-text-secondary mb-4'>
-              I&apos;m passionate about helping people build sustainable fitness
-              habits that actually fit into their lives. No cookie-cutter
-              programs. No fad diets. Just structured, goal-oriented training
-              that adapts to your schedule, goals, and limitations.
+              With over 8 years of experience spanning commercial clubs like
+              Town Sports International and years of independent coaching,
+              I&apos;ve helped hundreds of clients reach their goals. I&apos;m
+              passionate about helping people build sustainable fitness habits
+              that actually fit into their lives. No cookie-cutter programs. No
+              fad diets. Just structured, goal-oriented training that adapts to
+              your schedule, goals, and limitations.
             </p>
             <p className='text-text-secondary mb-4'>
               What sets my coaching apart is genuine accountability and
@@ -78,7 +81,11 @@ export default function AboutPage() {
             transition={{ duration: 0.6 }}
             className='text-center mb-12'
           >
-            <h2 className='mb-4'>Experience</h2>
+            <h2 className='mb-4'>Experience & Credentials</h2>
+            <p className='text-text-secondary max-w-2xl mx-auto'>
+              ACE Certified Personal Trainer with 8+ years of field experience
+              and extensive nutrition knowledge.
+            </p>
           </motion.div>
 
           <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
@@ -93,23 +100,26 @@ export default function AboutPage() {
                 <ul className='space-y-2 text-text-secondary'>
                   <li className='flex items-start'>
                     <span className='text-accent mr-2'>•</span>
-                    <span>Fat loss and body recomposition</span>
+                    <span>
+                      Longevity, Mobility & Cognitive Health
+                      (Alzheimer&apos;s/Dementia)
+                    </span>
                   </li>
                   <li className='flex items-start'>
                     <span className='text-accent mr-2'>•</span>
-                    <span>Muscle building and hypertrophy</span>
+                    <span>Injury Rehabilitation & Pain Management</span>
                   </li>
                   <li className='flex items-start'>
                     <span className='text-accent mr-2'>•</span>
-                    <span>Strength training and powerlifting</span>
+                    <span>Fat Loss, Muscle Building & Recomposition</span>
                   </li>
                   <li className='flex items-start'>
                     <span className='text-accent mr-2'>•</span>
-                    <span>Injury rehabilitation and prevention</span>
+                    <span>Strength Training & Powerlifting</span>
                   </li>
                   <li className='flex items-start'>
                     <span className='text-accent mr-2'>•</span>
-                    <span>Training for longevity and mobility</span>
+                    <span>Foundational Strength for Youth & Teens</span>
                   </li>
                 </ul>
               </Card>
@@ -126,61 +136,37 @@ export default function AboutPage() {
                 <ul className='space-y-2 text-text-secondary'>
                   <li className='flex items-start'>
                     <span className='text-accent mr-2'>•</span>
-                    <span>Busy professionals needing efficient training</span>
+                    <span>
+                      Ages 14 to 80+: Training adapted for any stage of life
+                    </span>
                   </li>
                   <li className='flex items-start'>
                     <span className='text-accent mr-2'>•</span>
-                    <span>Complete beginners building foundations</span>
+                    <span>
+                      Individuals managing chronic conditions or diseases
+                    </span>
                   </li>
                   <li className='flex items-start'>
                     <span className='text-accent mr-2'>•</span>
-                    <span>Adults 40+ prioritizing health and longevity</span>
+                    <span>Beginners looking for a safe, structured start</span>
                   </li>
                   <li className='flex items-start'>
                     <span className='text-accent mr-2'>•</span>
-                    <span>Experienced lifters breaking plateaus</span>
+                    <span>
+                      Experienced lifters who want to be pushed to the next
+                      level
+                    </span>
                   </li>
                   <li className='flex items-start'>
                     <span className='text-accent mr-2'>•</span>
-                    <span>Athletes needing sport-specific conditioning</span>
+                    <span>
+                      Busy people needing efficient, result-driven sessions
+                    </span>
                   </li>
                 </ul>
               </Card>
             </motion.div>
           </div>
-        </Container>
-      </Section>
-
-      {/* Certifications */}
-      <Section>
-        <Container>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className='text-center mb-12'
-          >
-            <h2 className='mb-4'>Certifications & Credentials</h2>
-            <p className='text-base sm:text-lg md:text-xl text-text-secondary max-w-2xl mx-auto'>
-              Continuously educated. Always learning. Evidence-driven practice.
-            </p>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'
-          >
-            {CERTIFICATIONS.map((cert, index) => (
-              <Card key={index} className='text-center'>
-                <div className='text-2xl sm:text-3xl md:text-4xl mb-3'>🏆</div>
-                <p className='font-semibold'>{cert}</p>
-              </Card>
-            ))}
-          </motion.div>
         </Container>
       </Section>
 

@@ -40,12 +40,12 @@ export const SERVICES = [
     id: 'online',
     title: 'Online Remote Training',
     description:
-      'Train anywhere with personalized remote coaching via video calls. Perfect for busy professionals, remote workers, or anyone who prefers the flexibility of training from home or while traveling.',
+      'Get the same personalized coaching as in-home training, but delivered live via video call. Perfect for busy professionals, remote workers, or anyone who prefers the flexibility of training from home or while traveling.',
     benefits: [
       'Custom workout programs designed for you',
-      'Live video training sessions',
+      'Live video training sessions (just like in-person, but online)',
       'Weekly check-ins and progress tracking',
-      'Form review and technique feedback via video',
+      'Live form review and technique feedback during video call',
       'Nutrition guidance and macro calculations',
       'Flexible session times (30 or 60-minute sessions)',
     ],
@@ -107,8 +107,7 @@ export const TESTIMONIALS = [
 */
 
 export const CERTIFICATIONS = [
-  'NASM Certified Personal Trainer',
-  'CPR & First Aid Certified',
-  'Nutrition Coaching Specialist',
+  'ACE Certified Personal Trainer',
+  'Nutrition Knowledge',
   // Add additional certifications as you earn them
 ] as const;

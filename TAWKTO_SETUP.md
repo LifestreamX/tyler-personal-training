@@ -150,5 +150,5 @@ To receive and respond to chats from anywhere:
 1. Customize your welcome message
 2. Set up automated responses for common questions
 3. Configure offline hours and offline message
-4. Add team members if needed (Administration > Team)
+4. (Optional) Add additional users if you ever expand (Administration > Team)
 5. Test on both desktop and mobile devices

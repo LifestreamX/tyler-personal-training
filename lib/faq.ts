@@ -17,7 +17,7 @@ export const FAQ_DATA = [
   {
     question: 'How often should I train per week?',
     answer:
-      'Most clients see great results training 2-4 times per week. The right frequency depends on your goals, schedule, and recovery capacity. We will create a plan that works for you.',
+      'Most clients see great results training 2-4 times per week. The right frequency depends on your goals, schedule, and recovery capacity. I will create a plan that works for you.',
   },
   {
     question: 'Do you provide nutrition coaching?',

@@ -67,7 +67,7 @@ export default function BookingPage() {
                 <li className='flex items-start'>
                   <span className='text-accent mr-3'>✓</span>
                   <span>
-                    Honest assessment of whether we&apos;re a good fit
+                    Honest assessment of whether I&apos;m a good fit for you
                   </span>
                 </li>
                 <li className='flex items-start'>
@@ -77,13 +77,13 @@ export default function BookingPage() {
               </ul>
             </Card>
 
-            <div style={{ minHeight: '1100px' }}>
+            <div style={{ minHeight: '1300px' }}>
               <Card className='h-full p-0 border-none bg-transparent shadow-none'>
                 <InlineWidget
                   url={SITE_CONFIG.calendlyUrl}
                   styles={{
-                    height: '1100px',
-                    minHeight: '1100px',
+                    height: '" 1300px',
+                    minHeight: '1200px',
                     width: '100%',
                   }}
                 />

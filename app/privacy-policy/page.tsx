@@ -36,8 +36,8 @@ export default function PrivacyPolicyPage() {
             <p className='mt-4'>
               This Privacy Policy applies to all information collected through
               my website ({SITE_CONFIG.name}) and any related services, sales,
-              marketing, or events (we refer to them collectively in this
-              Privacy Policy as the &quot;Services&quot;).
+              marketing, or events (I refer to them collectively in this Privacy
+              Policy as the &quot;Services&quot;).
             </p>
           </section>
 
@@ -83,7 +83,7 @@ export default function PrivacyPolicyPage() {
             <p>
               I use personal information collected via my Services for a variety
               of business purposes described below. I process your personal
-              information for these purposes in reliance on our legitimate
+              information for these purposes in reliance on my legitimate
               business interests, in order to enter into or perform a contract
               with you, with your consent, and/or for compliance with my legal
               obligations.
@@ -129,7 +129,7 @@ export default function PrivacyPolicyPage() {
                 <strong>Live Chat:</strong> Tawk.to (for providing real-time
                 chat support. When you use the live chat feature, Tawk.to may
                 collect your name, email address, and chat messages to
-                facilitate our conversation. For more information about
+                facilitate my conversation with you. For more information about
                 Tawk.to&apos;s privacy practices, visit{' '}
                 <a
                   href='https://www.tawk.to/privacy-policy/'

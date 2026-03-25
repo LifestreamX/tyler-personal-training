@@ -29,7 +29,7 @@ export function Button({
       'bg-accent text-white hover:bg-accent-hover shadow-lg shadow-accent/20',
     secondary: 'bg-muted text-foreground hover:bg-border',
     outline:
-      'border-2 border-accent text-accent hover:bg-accent hover:text-white',
+      'border-2 border-white text-white hover:bg-white hover:text-accent',
   };
 
   const sizes = {

@@ -110,7 +110,7 @@ export default function ServicesPage() {
                 step: '03',
                 title: 'Custom Program',
                 description:
-                  'Receive your personalized training program within 48 hours',
+                  'I build your personalized training program with you, session by session, adapting as you progress',
               },
               {
                 step: '04',
@@ -155,13 +155,15 @@ export default function ServicesPage() {
                 Investment & Commitment
               </h2>
               <p className='text-text-secondary mb-4'>
-                Pricing varies based on service type and commitment level. All
-                packages include personalized programming, ongoing support, and
-                accountability coaching.
+                Pricing depends on your chosen service and commitment level.
+                Flexible payment options are available: pay weekly, monthly, or
+                per session. All packages include personalized programming,
+                ongoing support, and accountability coaching.
               </p>
               <p className='text-text-secondary mb-6'>
-                Book a free consultation to discuss which option is best for
-                your goals and budget.
+                Book a free consultation to discuss which option fits your
+                goals, schedule, and budget. I’ll help you choose the best plan
+                for you.
               </p>
               <Button size='lg' asChild>
                 <Link href='/booking'>Schedule Free Consultation</Link>
@@ -175,8 +177,10 @@ export default function ServicesPage() {
       <CTA
         title='Not Sure Which Option Is Right?'
         description="Let's talk. I'll help you choose the best coaching package for your goals."
-        primaryButtonText='Book a Call'
-        primaryButtonHref='/booking'
+        primaryButtonText='Start Your Assessment'
+        primaryButtonHref='/assessment'
+        secondaryButtonText='Book a Call'
+        secondaryButtonHref='/booking'
       />
     </>
   );
