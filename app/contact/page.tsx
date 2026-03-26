@@ -245,13 +245,10 @@ export default function ContactPage() {
               <Card>
                 <h3 className='text-xl font-bold mb-4'>Response Time</h3>
                 <p className='text-text-secondary mb-4'>
-                  I&apos;ll respond as soon as possible. For urgent matters,
-                  please call directly.
+                  I&apos;ll respond as soon as possible.
                 </p>
                 <div className='text-sm text-text-secondary'>
-                  <p className='mb-1'>Monday - Friday: 6am - 8pm</p>
-                  <p className='mb-1'>Saturday: 8am - 2pm</p>
-                  <p>Sunday: Closed</p>
+                  <p className='mb-1'>Monday - Sunday: 9am - 5pm</p>
                 </div>
               </Card>
 
