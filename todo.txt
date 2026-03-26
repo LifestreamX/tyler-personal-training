@@ -17,7 +17,7 @@ TODO: Next Steps for Tyler Personal Training Website
 
 --- In Progress / Next ---
 13. Set up custom domain and SSL
-14. GA4: Replace with real URL / test make sure working
+14. GA4: test make sure working if nto fix
 15. Test all deployed site:
     - Assessment form (all steps)
     - Contact form (success/error)

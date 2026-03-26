@@ -114,7 +114,7 @@ export function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.8 }}
-        className='absolute bottom-8 left-1/2 transform -translate-x-1/2'
+        className='absolute bottom-8 left-1/2 transform -translate-x-1/2 hidden sm:block'
       >
         <div className='w-6 h-10 border-2 border-accent rounded-full flex justify-center'>
           <motion.div
