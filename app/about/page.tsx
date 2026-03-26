@@ -36,7 +36,7 @@ export default function AboutPage() {
       </Section>
 
       {/* Story Section */}
-      <Section>
+      <Section className='pt-0! pb-18!'>
         <Container size='md'>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
