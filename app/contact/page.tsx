@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
 import { Card } from '@/components/ui/Card';
+import { formatPhoneNumber } from '@/lib/formatPhoneNumber';
 import { Button } from '@/components/ui/Button';
 import { SITE_CONFIG } from '@/lib/constants';
 import { trackGAEvent, GA_EVENT_NAMES } from '@/lib/analytics';
@@ -61,10 +62,11 @@ export default function ContactPage() {
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
-    setFormData((prev) => ({
-      ...prev,
-      [e.target.name]: e.target.value,
-    }));
+    if (e.target.name === 'phone') {
+      setFormData({ ...formData, phone: formatPhoneNumber(e.target.value) });
+    } else {
+      setFormData({ ...formData, [e.target.name]: e.target.value });
+    }
   };
 
   return (
@@ -167,6 +169,8 @@ export default function ContactPage() {
                       onChange={handleChange}
                       className='w-full bg-background border border-border rounded-lg px-4 py-3 focus:outline-none focus:border-accent'
                       placeholder='(617) 555-0123'
+                      maxLength={14}
+                      pattern='\(\d{3}\) \d{3}-\d{4}'
                     />
                   </div>
 

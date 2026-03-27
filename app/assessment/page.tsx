@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { formatPhoneNumber } from '@/lib/formatPhoneNumber';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Container } from '@/components/ui/Container';
 import { Section } from '@/components/ui/Section';
@@ -216,10 +217,15 @@ export default function AssessmentPage() {
                     <input
                       type='tel'
                       value={formData.phone}
-                      onChange={(e) => updateFormData('phone', e.target.value)}
+                      onChange={(e) => {
+                        const formatted = formatPhoneNumber(e.target.value);
+                        updateFormData('phone', formatted);
+                      }}
                       className='w-full bg-background border border-border rounded-lg px-4 py-3 focus:outline-none focus:border-accent'
                       placeholder='(617) 555-0123'
                       required
+                      maxLength={14}
+                      pattern='\(\d{3}\) \d{3}-\d{4}'
                     />
                   </div>
                 </div>
