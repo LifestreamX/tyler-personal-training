@@ -1,17 +1,23 @@
-TODO: Edit Content as needed
 
 
+# 🏋️‍♂️ Tyler Allen Personal Training — TODO
+
+## 📝 Website Content
+- [ ] Edit and update all site content as needed
+
+## 🚀 Growth & Marketing
+- [ ] Use AI/code for outreach or automation
+- [ ] Cold emailing for leads
+- [ ] Explore useful apps for business
+- [ ] Grow via referrals
+- [ ] Leverage coding skills for business
+- [ ] Network at gyms for private clients
+- [ ] Update/create training resume
+- [ ] Set up liability insurance / LLC (waivers, contracts, business license, bank accounts, payment processor, etc)
+- [ ] Renew certifications
+- [ ] Collect reviews/testimonials
+- [ ] Promote on different platforms (social, local, etc)
+- [ ] Finalize pricing details
 
 
-
-
-
---- In Progress / Next ---
-
-15. Test all deployed site:
-    - Assessment form (all steps)
-    - Contact form (success/error)
-
-
- 
 
