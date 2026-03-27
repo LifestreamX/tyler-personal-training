@@ -45,7 +45,7 @@ Phone: ${phone}
 
 Goals: ${Array.isArray(goals) ? goals.join(', ') : goals}
 Experience Level: ${experience}
-Age Range: ${ageRange}
+Age Group: ${ageRange}
 Injuries/Limitations: ${injuries || 'None'}
 Training Preference: ${trainingPreference}
 Availability: ${availability}

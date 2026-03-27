@@ -366,20 +366,20 @@ export default function AssessmentPage() {
 
                   <div>
                     <label className='block text-sm font-medium mb-3'>
-                      Age Range *
+                      Age Group *
                     </label>
                     <div className='grid grid-cols-1 sm:grid-cols-2 gap-3'>
-                      {['14-25', '26-40', '41-55', '56+'].map((range) => (
+                      {['Youth', 'Adult', 'Senior'].map((group) => (
                         <button
-                          key={range}
-                          onClick={() => updateFormData('ageRange', range)}
+                          key={group}
+                          onClick={() => updateFormData('ageRange', group)}
                           className={`p-4 border-2 rounded-lg transition-all ${
-                            formData.ageRange === range
+                            formData.ageRange === group
                               ? 'border-accent bg-accent/10'
                               : 'border-border hover:border-accent/50'
                           }`}
                         >
-                          {range}
+                          {group}
                         </button>
                       ))}
                     </div>

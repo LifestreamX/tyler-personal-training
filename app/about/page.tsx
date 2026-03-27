@@ -137,8 +137,8 @@ export default function AboutPage() {
                   <li className='flex items-start'>
                     <span className='text-accent mr-2'>•</span>
                     <span>
-                      Clients from age 14 to over 80—including teens, adults,
-                      and seniors seeking strength, mobility, or longevity
+                      Youth, adults, and seniors seeking strength, mobility, or
+                      longevity
                     </span>
                   </li>
                   <li className='flex items-start'>

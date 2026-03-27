@@ -187,7 +187,7 @@ The codebase includes placeholder comments and structure for:
 **Key Differentiators:**
 
 - Data-driven programming
-- Wide age range experience (14-80+)
+- Experience training youth, adults, and seniors
 - Medical condition expertise
 - Real accountability
 
