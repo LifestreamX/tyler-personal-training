@@ -24,7 +24,12 @@ Packages and discounts are available — please contact to inquire. (Not listed 
 
 ## Booking
 
-Book via the website booking page (Calendly). Payment details and policies are confirmed at booking.
+Book your initial session via the website booking page (Calendly). After the initial meeting, ongoing sessions are scheduled directly with Tyler and can be booked manually or by invoice.
+
+### Payment Methods
+
+- Card (Stripe), Venmo, PayPal, or cash (in-person).
+- Full payment or a card hold is required to reserve a session.
 
 ---
 
