@@ -16,6 +16,5 @@
 
 ## Payment Methods
 
-- Card (Stripe), Venmo, PayPal, check (by arrangement), or cash (in-person).
-- Receipts and invoices provided. Full payment or a card hold is required to reserve a session.
-
+- Venmo, PayPal, check (by arrangement), or cash (in-person).
+- Receipts and invoices provided. Full payment or a deposit is required to reserve a session.
