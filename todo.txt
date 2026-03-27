@@ -1,24 +1,39 @@
 
 
-# 🏋️‍♂️ Tyler Allen Personal Training — TODO
+# 🏋️‍♂️ Tyler Allen Personal Training — TODO (Organized)
 
-## 📝 Website Content
+## 🔧 Website
 - [ ] Edit and update all site content as needed
+- [ ] Add pricing block to Services or Booking page
+- [ ] Add assessment form
 
 ## 🚀 Growth & Marketing
-- [ ] Use AI/code for outreach or automation
-- [ ] Cold emailing for leads
-- [ ] Explore useful apps for business
-- [ ] Grow via referrals
-- [ ] Leverage coding skills for business
+- [ ] Outreach automation (AI/code)
+- [ ] Cold email campaign
+- [ ] Promote on social & local platforms
+- [ ] Grow via referrals / reach out to old clients
 - [ ] Network at gyms for private clients
-- [ ] Update/create training resume
-- [ ] Set up liability insurance / LLC (waivers, contracts, business license, bank accounts, payment processor, etc)
-- [ ] Renew certifications
-- [ ] Collect reviews/testimonials
-- [ ] Promote on different platforms (social, local, etc)
-- [ ] Reach out to old clients
-- [ ] Finalize pricing details
 
+## 💼 Business & Operations
+- [ ] Set up liability insurance / LLC / contracts
+- [ ] Set up payments (Venmo/PayPal) and invoicing
+- [ ] Implement receipts/invoicing workflow
+- [ ] Renew certifications
+
+## 🤝 Sales & Clients
+- [ ] Collect reviews/testimonials
+- [ ] Create onboarding flow for new clients
+- [ ] Finalize pricing & booking copy (done)
+
+## 🛠️ Engineering & Automation
+- [ ] Use coding/AI for outreach or business automation
+- [ ] Leverage coding skills for business tools
+
+## 🗂️ Admin
+- [ ] Update/create training resume
+- [ ] Maintain this todo list
+
+---
+Pick one item and I’ll start it — I recommend adding the pricing block to the `Services` page next.
 
 
