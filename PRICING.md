@@ -1,7 +1,3 @@
-# Pricing — Tyler Allen Personal Training
-
-Simple, single-session pricing. Ask about multi-session packages by request.
-
 ## Rates (USD)
 
 - 30-minute session: $45
@@ -24,7 +20,7 @@ Packages and discounts are available — please contact to inquire. (Not listed 
 
 ## Booking
 
-Book your initial session via the website booking page (Calendly). After the initial meeting, ongoing sessions are scheduled directly with Tyler and can be booked manually or by invoice.
+Contact Tyler to schedule an initial consultation. Ongoing sessions are scheduled directly and can be booked manually or by invoice.
 
 ### Payment Methods
 
