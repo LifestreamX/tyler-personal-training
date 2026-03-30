@@ -3,9 +3,10 @@ import { BASE_URL, SEO_KEYWORDS } from '@/lib/seo';
 import { SITE_CONFIG } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Book Your Free Consultation - Personal Trainer Quincy & South Shore MA',
+  title:
+    'Book Your Free Consultation - Personal Trainer Quincy & South Shore MA',
   description:
-    'Schedule a free 30-minute consultation with Tyler Allen, NASM Certified Personal Trainer in Quincy and South Shore MA. Discuss your fitness goals, training preferences, and get started with mobile in-home training in Quincy, Braintree, Weymouth, Milton, Canton, Hingham, Plymouth, Brockton, or online remote coaching. Book your complimentary fitness consultation today and start your transformation in South Shore Massachusetts.',
+    'Schedule a free 30-minute consultation with Tyler Allen, ACE Certified Personal Trainer in Quincy and South Shore MA. Discuss your fitness goals, training preferences, and get started with mobile in-home training in Quincy, Braintree, Weymouth, Milton, Canton, Hingham, Plymouth, Brockton, or online remote coaching. Book your complimentary fitness consultation today and start your transformation in South Shore Massachusetts.',
   keywords: [
     ...SEO_KEYWORDS.primary,
     ...SEO_KEYWORDS.local,
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: `Book Your Free Consultation | ${SITE_CONFIG.name}`,
     description:
-      'Schedule a free 30-minute consultation to discuss your fitness goals with NASM certified trainer in Quincy and South Shore MA.',
+      'Schedule a free 30-minute consultation to discuss your fitness goals with ACE certified trainer in Quincy and South Shore MA.',
   },
   alternates: {
     canonical: `${BASE_URL}/booking`,

@@ -24,7 +24,8 @@ export function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className='text-lg text-text-secondary'>
-            Everything you need to know about personal training in Quincy and South Shore MA
+            Everything you need to know about personal training in Quincy and
+            South Shore MA
           </p>
         </motion.div>
 

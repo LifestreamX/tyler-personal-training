@@ -5,7 +5,7 @@ import { SITE_CONFIG } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Personal Training Services - Mobile In-Home & Online Training',
   description:
-    'Professional personal training services in Quincy, South Shore MA, and Greater Boston. NASM certified trainer offering mobile in-home personal training and online remote coaching. Serving Quincy, Braintree, Weymouth, Milton, Canton, Hingham, Plymouth, Brockton, and all South Shore communities. Custom strength training programs, fat loss coaching, nutrition guidance, and flexible scheduling. 30 and 60-minute sessions available. Transform your fitness with expert one-on-one coaching.',
+    'Professional personal training services in Quincy, South Shore MA, and Greater Boston. ACE certified trainer offering mobile in-home personal training and online remote coaching. Serving Quincy, Braintree, Weymouth, Milton, Canton, Hingham, Plymouth, Brockton, and all South Shore communities. Custom strength training programs, fat loss coaching, nutrition guidance, and flexible scheduling. 30 and 60-minute sessions available. Transform your fitness with expert one-on-one coaching.',
   keywords: [
     ...SEO_KEYWORDS.primary,
     ...SEO_KEYWORDS.secondary,
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `Personal Training Services | ${SITE_CONFIG.name}`,
     description:
-      'Mobile in-home and online personal training in Quincy and South Shore MA. NASM certified trainer offering custom programs, nutrition guidance, and flexible scheduling to fit your lifestyle throughout South Shore Massachusetts.',
+      'Mobile in-home and online personal training in Quincy and South Shore MA. ACE certified trainer offering custom programs, nutrition guidance, and flexible scheduling to fit your lifestyle throughout South Shore Massachusetts.',
     url: `${BASE_URL}/services`,
     type: 'website',
     images: [

@@ -86,7 +86,8 @@ export function generateStructuredData() {
         itemOffered: {
           '@type': 'Service',
           name: 'In-Home Personal Training',
-          description: 'One-on-one personal training at your home in Quincy and South Shore MA',
+          description:
+            'One-on-one personal training at your home in Quincy and South Shore MA',
         },
         areaServed: 'South Shore MA and Greater Boston',
         availability: 'https://schema.org/InStock',
@@ -112,7 +113,7 @@ export function generateStructuredData() {
     name: SITE_CONFIG.name,
     jobTitle: 'Certified Personal Trainer & Fitness Coach',
     description:
-      'NASM Certified Personal Trainer specializing in strength training, fat loss, muscle building, and sustainable fitness habits in Quincy and the South Shore MA area. Expert in working with busy professionals, beginners, and clients with chronic conditions throughout South Shore Massachusetts and Greater Boston.',
+      'ACE Certified Personal Trainer specializing in strength training, fat loss, muscle building, and sustainable fitness habits in Quincy and the South Shore MA area. Expert in working with busy professionals, beginners, and clients with chronic conditions throughout South Shore Massachusetts and Greater Boston.',
     url: BASE_URL,
     email: SITE_CONFIG.email,
     telephone: SITE_CONFIG.phone,
@@ -136,10 +137,10 @@ export function generateStructuredData() {
       {
         '@type': 'EducationalOccupationalCredential',
         credentialCategory: 'certification',
-        name: 'NASM Certified Personal Trainer',
+        name: 'ACE Certified Personal Trainer',
         recognizedBy: {
           '@type': 'Organization',
-          name: 'National Academy of Sports Medicine',
+          name: 'American Council on Exercise',
         },
       },
     ],
@@ -311,7 +312,7 @@ export const SEO_KEYWORDS = {
     'Quincy personal trainer',
     'personal training Quincy Massachusetts',
     'certified personal trainer Quincy',
-    'NASM certified trainer Quincy MA',
+    'ACE certified trainer Quincy MA',
     'personal trainer South Shore MA',
     'South Shore personal trainer',
     'South Shore Massachusetts personal training',
