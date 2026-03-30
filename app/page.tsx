@@ -12,20 +12,22 @@ import { generateFAQStructuredData } from '@/lib/faq';
 export const metadata: Metadata = {
   title: `${SITE_CONFIG.tagline}`,
   description:
-    'Transform your fitness with Tyler Allen, a NASM certified personal trainer in Boston, MA. Specializing in strength training, fat loss, muscle building, and sustainable habits. Serving Cambridge, Somerville, Brookline, Newton, Quincy, and Greater Boston. In-home and online training available. Get results with personalized programming and expert coaching.',
+    'Transform your fitness with Tyler Allen, a NASM certified personal trainer in Quincy and South Shore MA. Specializing in strength training, fat loss, muscle building, and sustainable habits. Mobile in-home training serving Quincy, Braintree, Weymouth, Milton, Canton, Hingham, Plymouth, Brockton, and South Shore Massachusetts. In-home and online training available. Get results with personalized programming and expert coaching.',
   keywords: [
     ...SEO_KEYWORDS.primary,
     ...SEO_KEYWORDS.local,
-    'Boston fitness',
+    'Quincy fitness',
+    'South Shore fitness',
     'Massachusetts personal trainer',
-    'certified trainer Boston',
-    'NASM trainer Boston area',
-    'Greater Boston personal training',
+    'certified trainer Quincy MA',
+    'NASM trainer South Shore',
+    'South Shore personal training',
+    'mobile personal trainer Massachusetts',
   ],
   openGraph: {
     title: `${SITE_CONFIG.name} - ${SITE_CONFIG.tagline}`,
     description:
-      'Transform your fitness with professional personal training in Boston and Greater Boston area. NASM certified trainer offering in-home and online coaching for strength, fat loss, muscle building, and sustainable results.',
+      'Transform your fitness with professional personal training in Quincy and South Shore MA. NASM certified trainer offering mobile in-home and online coaching for strength, fat loss, muscle building, and sustainable results throughout South Shore Massachusetts.',
     url: BASE_URL,
     type: 'website',
     images: [
@@ -33,7 +35,7 @@ export const metadata: Metadata = {
         url: `${BASE_URL}/og-image.png`,
         width: 1200,
         height: 630,
-        alt: 'Tyler Allen Personal Training - Boston MA',
+        alt: 'Tyler Allen Personal Training - Quincy and South Shore MA',
       },
     ],
     locale: 'en_US',
@@ -43,7 +45,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: `${SITE_CONFIG.name} - ${SITE_CONFIG.tagline}`,
     description:
-      'Transform your fitness with professional personal training in Boston. In-home and online coaching for strength, fat loss, and sustainable results.',
+      'Transform your fitness with professional personal training in Quincy and South Shore MA. Mobile in-home and online coaching for strength, fat loss, and sustainable results.',
   },
   alternates: {
     canonical: BASE_URL,

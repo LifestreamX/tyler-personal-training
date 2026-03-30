@@ -2,8 +2,8 @@ export const SITE_CONFIG = {
   name: 'Tyler Allen Personal Training',
   tagline: 'Your Partner in Fitness Excellence',
   description:
-    'Professional personal training in the Boston area. Specializing in strength training, fat loss, and building sustainable fitness habits that last.',
-  location: 'Boston, MA',
+    'Professional personal training in Quincy and South Shore MA. Mobile in-home training serving Quincy, Braintree, Weymouth, Milton, Hingham, Plymouth, and surrounding communities. Specializing in strength training, fat loss, and building sustainable fitness habits that last.',
+  location: 'Quincy, MA',
   email: 'tylerallen@live.com',
   phone: '(774) 279-1607',
   calendlyUrl:
@@ -26,7 +26,7 @@ export const SERVICES = [
     id: 'in-person',
     title: 'In-Home Personal Training',
     description:
-      'I travel to your home in the Boston area for personalized one-on-one training sessions. Bring the gym experience to your space with professional coaching, custom programs, and nutrition guidance.',
+      'I travel to your home in Quincy, South Shore MA, and Greater Boston for personalized one-on-one training sessions. Serving Quincy, Braintree, Weymouth, Milton, Canton, Hingham, Plymouth, and surrounding communities. Bring the gym experience to your space with professional mobile coaching, custom programs, and nutrition guidance.',
     benefits: [
       'Training at your home on your schedule',
       'Direct coaching and real-time form correction',
@@ -34,13 +34,14 @@ export const SERVICES = [
       'Nutrition guidance and meal planning support',
       'Flexible scheduling (30 or 60-minute sessions)',
       'No gym membership required',
+      'Mobile service covering South Shore MA and Greater Boston',
     ],
   },
   {
     id: 'online',
     title: 'Online Remote Training',
     description:
-      'Get the same personalized coaching as in-home training, but delivered live via video call. Perfect for busy professionals, remote workers, or anyone who prefers the flexibility of training from home or while traveling.',
+      'Get the same personalized coaching as in-home training, but delivered live via video call. Perfect for busy professionals, remote workers, or anyone in South Shore MA and beyond who prefers the flexibility of training from home or while traveling.',
     benefits: [
       'Custom workout programs designed for you',
       'Live video training sessions (just like in-person, but online)',
@@ -48,6 +49,7 @@ export const SERVICES = [
       'Live form review and technique feedback during video call',
       'Nutrition guidance and macro calculations',
       'Flexible session times (30 or 60-minute sessions)',
+      'Train from anywhere in Massachusetts or beyond',
     ],
   },
 ] as const;

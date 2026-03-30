@@ -415,7 +415,7 @@ export default function AssessmentPage() {
                         {
                           value: 'in-person',
                           label:
-                            'In-Person (Boston Area & Surrounding Suburbs)',
+                            'In-Person (Quincy, South Shore MA & Greater Boston)',
                         },
                         { value: 'online', label: 'Online' },
                         { value: 'hybrid', label: 'Hybrid (Mix of Both)' },

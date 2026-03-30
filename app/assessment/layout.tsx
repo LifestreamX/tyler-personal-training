@@ -3,18 +3,19 @@ import { BASE_URL, SEO_KEYWORDS } from '@/lib/seo';
 import { SITE_CONFIG } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Free Fitness Assessment - Boston Personal Training',
+  title: 'Free Fitness Assessment - Quincy & South Shore MA Personal Training',
   description:
-    "Complete your free fitness assessment with Tyler Allen, NASM Certified Personal Trainer in Boston, MA. Share your fitness goals, training experience, health history, and training preferences to receive a personalized training plan. Whether you're in Boston, Cambridge, Somerville, Brookline, Newton, Quincy, or prefer online training, start your fitness journey with a customized approach. Get your free fitness evaluation today.",
+    'Complete your free fitness assessment with Tyler Allen, NASM Certified Personal Trainer in Quincy and South Shore MA. Share your fitness goals, training experience, health history, and training preferences to receive a personalized training plan. Whether you\'re in Quincy, Braintree, Weymouth, Milton, Canton, Hingham, Plymouth, Brockton, or prefer online training, start your fitness journey with a customized approach. Get your free fitness evaluation today for South Shore Massachusetts.',
   keywords: [
     ...SEO_KEYWORDS.primary,
     ...SEO_KEYWORDS.local,
-    'fitness assessment Boston',
-    'free fitness evaluation',
-    'personal training consultation',
-    'fitness goal assessment',
-    'fitness evaluation Boston',
-    'trainer assessment form',
+    'fitness assessment Quincy MA',
+    'fitness assessment South Shore',
+    'free fitness evaluation South Shore MA',
+    'personal training consultation Quincy',
+    'fitness goal assessment Quincy',
+    'fitness evaluation South Shore',
+    'trainer assessment form Massachusetts',
   ],
   openGraph: {
     title: `Free Fitness Assessment | ${SITE_CONFIG.name}`,

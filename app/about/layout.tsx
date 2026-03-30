@@ -3,23 +3,24 @@ import { BASE_URL, SEO_KEYWORDS } from '@/lib/seo';
 import { SITE_CONFIG } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'About Tyler Allen - NASM Certified Personal Trainer Boston',
+  title: 'About Tyler Allen - NASM Certified Personal Trainer Quincy & South Shore MA',
   description:
-    'Meet Tyler Allen, NASM Certified Personal Trainer serving Boston, Cambridge, Somerville, Brookline, Newton, Quincy, and Greater Boston area. Evidence-based training approach specializing in strength training, fat loss, muscle building, and sustainable fitness habits. Experienced working with busy professionals, beginners, chronic conditions, and injury rehabilitation. Learn about my certifications, training philosophy, and commitment to your fitness success.',
+    'Meet Tyler Allen, NASM Certified Personal Trainer serving Quincy, South Shore MA, and Greater Boston. Mobile in-home training throughout Quincy, Braintree, Weymouth, Milton, Canton, Hingham, Plymouth, Brockton, and all South Shore communities. Evidence-based training approach specializing in strength training, fat loss, muscle building, and sustainable fitness habits. Experienced working with busy professionals, beginners, chronic conditions, and injury rehabilitation. Learn about my certifications, training philosophy, and commitment to your fitness success.',
   keywords: [
     ...SEO_KEYWORDS.primary,
     ...SEO_KEYWORDS.local,
-    'certified personal trainer',
-    'NASM certified trainer Boston',
-    'Boston fitness coach',
-    'professional trainer Boston',
+    'certified personal trainer Quincy',
+    'NASM certified trainer South Shore MA',
+    'Quincy fitness coach',
+    'professional trainer South Shore',
     'qualified personal trainer Massachusetts',
-    'experienced fitness trainer',
+    'experienced fitness trainer Quincy',
+    'mobile personal trainer South Shore',
   ],
   openGraph: {
     title: `About Tyler Allen | ${SITE_CONFIG.name}`,
     description:
-      'NASM Certified Personal Trainer in Boston with an evidence-based approach to fitness. Specializing in strength training, fat loss, muscle building, and building habits that last. Serving the Greater Boston area.',
+      'NASM Certified Personal Trainer in Quincy and South Shore MA with an evidence-based approach to fitness. Specializing in strength training, fat loss, muscle building, and building habits that last. Serving Quincy and South Shore Massachusetts with mobile in-home training.',
     url: `${BASE_URL}/about`,
     type: 'profile',
     images: [
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
         url: `${BASE_URL}/og-image.png`,
         width: 1200,
         height: 630,
-        alt: 'Tyler Allen - NASM Certified Personal Trainer Boston',
+        alt: 'Tyler Allen - NASM Certified Personal Trainer Quincy and South Shore MA',
       },
     ],
     locale: 'en_US',
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: `About Tyler Allen | ${SITE_CONFIG.name}`,
     description:
-      'NASM Certified Personal Trainer in Boston with an evidence-based approach to fitness. Serving Greater Boston area.',
+      'NASM Certified Personal Trainer in Quincy and South Shore MA with an evidence-based approach to fitness. Serving South Shore Massachusetts.',
   },
   alternates: {
     canonical: `${BASE_URL}/about`,
