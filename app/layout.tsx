@@ -12,7 +12,7 @@ const structuredData = generateStructuredData();
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: `${SITE_CONFIG.name} - ${SITE_CONFIG.tagline}`,
+    default: 'Tyler Allen | Personal Trainer Quincy, South Shore MA & Online',
     template: `%s | ${SITE_CONFIG.name}`,
   },
   description: SITE_CONFIG.description,

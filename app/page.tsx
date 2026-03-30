@@ -10,7 +10,7 @@ import { SITE_CONFIG } from '@/lib/constants';
 import { generateFAQStructuredData } from '@/lib/faq';
 
 export const metadata: Metadata = {
-  title: `${SITE_CONFIG.tagline}`,
+  title: 'Tyler Allen | Personal Trainer Quincy, South Shore MA & Online',
   description:
     'Transform your fitness with Tyler Allen, a NASM certified personal trainer in Quincy and South Shore MA. Specializing in strength training, fat loss, muscle building, and sustainable habits. Mobile in-home training serving Quincy, Braintree, Weymouth, Milton, Canton, Hingham, Plymouth, Brockton, and South Shore Massachusetts. In-home and online training available. Get results with personalized programming and expert coaching.',
   keywords: [
