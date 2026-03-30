@@ -3,15 +3,18 @@ import { BASE_URL, SEO_KEYWORDS } from '@/lib/seo';
 import { SITE_CONFIG } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Free Fitness Assessment',
+  title: 'Free Fitness Assessment - Boston Personal Training',
   description:
-    'Complete your free fitness assessment with Tyler Allen. Share your goals, experience, and training preferences to receive a personalized training plan. Start your fitness journey in Boston today.',
+    "Complete your free fitness assessment with Tyler Allen, NASM Certified Personal Trainer in Boston, MA. Share your fitness goals, training experience, health history, and training preferences to receive a personalized training plan. Whether you're in Boston, Cambridge, Somerville, Brookline, Newton, Quincy, or prefer online training, start your fitness journey with a customized approach. Get your free fitness evaluation today.",
   keywords: [
     ...SEO_KEYWORDS.primary,
+    ...SEO_KEYWORDS.local,
     'fitness assessment Boston',
     'free fitness evaluation',
     'personal training consultation',
     'fitness goal assessment',
+    'fitness evaluation Boston',
+    'trainer assessment form',
   ],
   openGraph: {
     title: `Free Fitness Assessment | ${SITE_CONFIG.name}`,

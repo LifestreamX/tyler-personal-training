@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   keywords: [
     ...SEO_KEYWORDS.primary,
     ...SEO_KEYWORDS.secondary,
+    ...SEO_KEYWORDS.local,
+    ...SEO_KEYWORDS.services,
+    ...SEO_KEYWORDS.specializations,
     ...SEO_KEYWORDS.general,
   ],
   authors: [{ name: SITE_CONFIG.name }],

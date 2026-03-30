@@ -12,17 +12,20 @@ import { generateFAQStructuredData } from '@/lib/faq';
 export const metadata: Metadata = {
   title: `${SITE_CONFIG.tagline}`,
   description:
-    'Transform your fitness with Tyler Allen, a certified personal trainer in Boston, MA. Specializing in strength training, fat loss, and building sustainable habits. In-home and online training available.',
+    'Transform your fitness with Tyler Allen, a NASM certified personal trainer in Boston, MA. Specializing in strength training, fat loss, muscle building, and sustainable habits. Serving Cambridge, Somerville, Brookline, Newton, Quincy, and Greater Boston. In-home and online training available. Get results with personalized programming and expert coaching.',
   keywords: [
     ...SEO_KEYWORDS.primary,
+    ...SEO_KEYWORDS.local,
     'Boston fitness',
     'Massachusetts personal trainer',
     'certified trainer Boston',
+    'NASM trainer Boston area',
+    'Greater Boston personal training',
   ],
   openGraph: {
     title: `${SITE_CONFIG.name} - ${SITE_CONFIG.tagline}`,
     description:
-      'Transform your fitness with professional personal training in Boston. In-home and online coaching for strength, fat loss, and sustainable results.',
+      'Transform your fitness with professional personal training in Boston and Greater Boston area. NASM certified trainer offering in-home and online coaching for strength, fat loss, muscle building, and sustainable results.',
     url: BASE_URL,
     type: 'website',
     images: [
@@ -30,15 +33,17 @@ export const metadata: Metadata = {
         url: `${BASE_URL}/og-image.png`,
         width: 1200,
         height: 630,
-        alt: 'Tyler Allen Personal Training',
+        alt: 'Tyler Allen Personal Training - Boston MA',
       },
     ],
+    locale: 'en_US',
+    siteName: SITE_CONFIG.name,
   },
   twitter: {
     card: 'summary_large_image',
     title: `${SITE_CONFIG.name} - ${SITE_CONFIG.tagline}`,
     description:
-      'Transform your fitness with professional personal training in Boston. In-home and online coaching.',
+      'Transform your fitness with professional personal training in Boston. In-home and online coaching for strength, fat loss, and sustainable results.',
   },
   alternates: {
     canonical: BASE_URL,
