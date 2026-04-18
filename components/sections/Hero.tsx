@@ -8,7 +8,7 @@ import { trackGAEvent, GA_EVENT_NAMES } from '@/lib/analytics';
 
 export function Hero() {
   return (
-    <section className='relative min-h-screen flex items-center justify-center overflow-hidden'>
+    <section className='relative min-h-screen flex items-start justify-center overflow-hidden pt-12 sm:pt-16 md:items-center md:pt-0'>
       {/* Background gradient */}
       <div className='absolute inset-0 bg-linear-to-br from-background via-background to-muted'>
         <div className='absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(230,57,70,0.1),transparent_50%)]' />

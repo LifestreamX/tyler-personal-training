@@ -120,7 +120,7 @@ export default function RootLayout({
         <GoogleAnalytics />
         <TawkTo />
         <Navbar />
-        <main className='grow'>{children}</main>
+        <main className='grow pt-20 md:pt-0'>{children}</main>
         <Footer />
       </body>
     </html>
